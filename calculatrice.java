@@ -11,10 +11,17 @@ public class calculatrice {
         public double division(double a,double b){
             if (b!=0){
                 return a+b;
-            }   
+            } 
             else{
-                System.out.println("erreur");
-                return NULL;
+                return 0;
+            }  
+        }
+        public boolean testeur(double b){
+            if(b==0){
+                return false;
+            }
+            else{
+                return true;
             }
         }
-        }
+}
